@@ -8,6 +8,8 @@ for line in range(len(matrix)):
     for column in range(len(matrix[line])):
           #verifica se a casa tem um numero
         if matrix[line][column].isdigit():
+          #eh numero printa o numero e fala true
             print('true' + ' ' +matrix[line][column])
         else:
+          #nao eh numero printa a letra e fala false
             print('false' + ' ' +matrix[line][column])
