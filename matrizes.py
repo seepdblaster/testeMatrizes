@@ -6,6 +6,7 @@ matrix = [['A','8','5','10'],
 #Loop percorrendo a matriz por inteiro
 for line in range(len(matrix)):
     for column in range(len(matrix[line])):
+          #verifica se a casa tem um numero
         if matrix[line][column].isdigit():
             print('true' + ' ' +matrix[line][column])
         else:
